@@ -13,7 +13,8 @@ using namespace std;
 void mightGoWrong() {
 
 	bool error1 = false;
-	bool error2 = true;
+	bool error2 = false;
+	bool error3 = true;
 
 	if(error1) {
 		throw "Something went wrong.";
@@ -22,6 +23,11 @@ void mightGoWrong() {
 	if(error2) {
 		throw string("Something else went wrong.");
 	}
+
+	if(error3) {
+		throw 32.4;
+	}
+
 
 }
 

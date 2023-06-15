@@ -5,4 +5,48 @@
 **/*.bmp
 **/bin/**
 **/bin/
+**/launch.json
+**/src/main
+**/src/test
+**/.vscode.bak
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# C++ build artifacts
+build/
+bin/
+
+# Visual Studio Code specific files
+.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Makefile
+
+# Other CMake files
+cmake_install.cmake
+install_manifest.txt
+
+# Dependency directories (can be modified as per your project)
+lib/
+vendor/
+
+# macOS debug symbols
+*.dSYM
+
 
